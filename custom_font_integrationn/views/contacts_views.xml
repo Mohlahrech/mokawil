@@ -1,0 +1,9 @@
+<odoo>
+    <data>
+        <template id="custom_font_integration_assets_contact_views" name="Custom Font Integration Assets for Contact Views" inherit_id="module_contacts.contact_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>

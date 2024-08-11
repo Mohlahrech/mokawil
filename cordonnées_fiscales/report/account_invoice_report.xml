@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+
+
+            <template id="report_invoice_document_inherit" inherit_id="account.report_invoice_document">
+                <xpath expr="//div[contains(@class, 'row')]" position="before">
+                    <!-- Additional client information section on the right side -->
+                    <div style="font-size:15px; margin-bottom: 20px; position: absolute; right: 0; width: 300px;">
+
+                        <div t-if="o.partner_id.rc">
+                            N° RC: <span t-field="o.partner_id.rc"/>
+                        </div>
+                        <div t-if="o.partner_id.nif">
+                            NIF: <span t-field="o.partner_id.nif"/>
+                        </div>
+                        <div t-if="o.partner_id.ai">
+                            AI: <span t-field="o.partner_id.ai"/>
+                        </div>
+                        <div t-if="o.partner_id.nis">
+                            NIS: <span t-field="o.partner_id.nis"/>
+                        </div>
+                    </div>
+                </xpath>
+            </template>
+
+            <template id="report_purchasebc_document_inherit" inherit_id="purchase.report_purchaseorder_document">
+                <xpath expr="//div[contains(@class, 'row')]" position="before">
+                    <!-- Additional client information section on the right side -->
+                    <div style="font-size:15px; margin-bottom: 20px; position: absolute; right: 0; width: 300px;">
+                        <table style="width: 100%;">
+                            <tr>
+                                <td style="width: 50%; padding-right: 10px;" t-if="o.partner_id.rc">
+                                    N° RC: <span t-field="o.partner_id.rc"/>
+                                </td>
+                                <td style="width: 50%;" t-if="o.partner_id.nif">
+                                    NIF: <span t-field="o.partner_id.nif"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width: 50%; padding-right: 10px;" t-if="o.partner_id.ai">
+                                    AI: <span t-field="o.partner_id.ai"/>
+                                </td>
+                                <td style="width: 50%;" t-if="o.partner_id.nis">
+                                    NIS: <span t-field="o.partner_id.nis"/>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- Adding a gap after the fields -->
+                        <div style="margin-top: 20px;"> <!-- Adjust the margin-top as needed -->
+                        </div>
+                    </div>
+                </xpath>
+            </template>
+
+
+
+
+    </data>
+</odoo>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2024 OERP Canada <https://www.oerp.ca>
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+
+<odoo>
+    <data>
+<!--        &lt;!&ndash; Inherit the action and update the help field &ndash;&gt;-->
+<!--        <record id="action_move_out_invoice_type" model="ir.actions.act_window">-->
+<!--            <field name="help" type="html">-->
+<!--                <p>-->
+<!--                    <img src="/custom_theme_tanilabs/static/src/image/about.jpg" alt="Invoice Help Image" style="max-width: 100%;"/>-->
+<!--                </p>-->
+<!--                <p>-->
+<!--                    Ici tu peux crée des factures-->
+<!--                </p>-->
+<!--            </field>-->
+<!--        </record>-->
+
+
+        <record id="inherit_product_template_form_view" model="ir.ui.view">
+            <field name="name">inherit.product.template.form.view</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_form_view"/>
+            <field name="arch" type="xml">
+                <!-- Make sale_ok field invisible -->
+                <field name="sale_ok" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </field>
+
+                <!-- Make purchase_ok field invisible -->
+                <field name="purchase_ok" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </field>
+            </field>
+        </record>
+
+        <record id="action_move_out_invoice_type" model="ir.actions.act_window">
+            <field name="name">Facturation</field>
+            <field name="res_model">account.move</field>
+            <field name="view_mode">tree,kanban,form,activity</field>
+            <field name="view_id" ref="account.view_out_invoice_tree"/>
+            <field name="search_view_id" ref="account.view_account_invoice_filter"/>
+            <field name="domain">[('move_type', '=', 'out_invoice')]</field>
+            <field name="context">{'default_move_type': 'out_invoice'}</field>
+            <field name="help" type="html">
+               <p>
+                    <img src="/custom_theme_tanilabs/static/src/image/about.png" alt="Invoice Help Image" style="max-width: 100%;"/>
+                </p><p>
+                Tu peux également créer des factures directement en cliquant sur nouveau
+              </p>
+            </field>
+        </record>
+
+
+        <record id="product_template_action_product" model="ir.actions.act_window">
+            <field name="name">Produits</field>
+            <field name="res_model">product.template</field>
+            <field name="view_mode">kanban,tree,form</field>
+            <field name="search_view_id" ref="stock.product_template_search_form_view_stock"/>
+            <field name="context"></field>
+            <field name="help" type="html">
+               <p>
+                   Ici tu peux créer et configurer tes produits et services
+                    <img src="/custom_theme_tanilabs/static/src/image/about_stock.jpg" alt="Invoice Help Image" style="max-width: 100%;"/>
+                </p><p>
+                Tu peux également créer des factures directement en cliquant sur nouveau
+              </p>
+            </field>
+        </record>
+
+        <record id="stock_product_normal_action" model="ir.actions.act_window">
+            <field name="name">Variantes des produits</field>
+            <field name="res_model">product.product</field>
+            <field name="view_mode">tree,form,kanban</field>
+            <field name="search_view_id" ref="stock.stock_product_search_form_view"/>
+             <field name="help" type="html">
+               <p>
+                   Ce menu est pour les varianteS de produits.
+                </p>
+            </field>
+        </record>
+
+
+        <menuitem id="menu_facturation_mokawil" name="Facturations" action="action_move_out_invoice_type"/>
+        <menuitem id="menu_stock_mokawil" name="Gestion de stock" action="product_template_action_product"/>
+        <menuitem id="menu_stock_variante_mokawil" name="Variantes" parent="menu_stock_mokawil" action="stock_product_normal_action"/>
+    </data>
+</odoo>

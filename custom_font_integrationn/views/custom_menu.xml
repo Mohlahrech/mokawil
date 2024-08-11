@@ -1,0 +1,7 @@
+<odoo>
+    <data>
+        <!-- Définition de l'élément de menu parent -->
+        <menuitem id="menu_custom_font_integration_root" name="Custom Font Integration"/>
+         <menuitem id="menu_custom_font_integration" name="Custom Font Integration" sequence="30" action="action_custom_font_integration"/>
+    </data>
+</odoo>

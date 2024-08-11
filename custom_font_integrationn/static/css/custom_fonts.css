@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'CabinSketch-Bold';
+    src: url('/custom_font_integrationn/static/fonts/CabinSketch-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CabinSketch-Regular';
+    src: url('/custom_font_integrationn/static/fonts/CabinSketch-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'VisbyCF-Bold';
+    src: url('/custom_font_integrationn/static/fonts/VisbyCF-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'VisbyCF-BoldOblique';
+    src: url('/custom_font_integrationn/static/fonts/VisbyCF-BoldOblique.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'VisbyCF-DemiBold';
+    src: url('/custom_font_integrationn/static/fonts/VisbyCF-DemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'VisbyCF-DemiBoldOblique';
+    src: url('/custom_font_integrationn/static/fonts/VisbyCF-DemiBoldOblique.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'VisbyCF-ExtraBold';
+    src: url('/custom_font_integrationn/static/fonts/VisbyCF-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'VisbyCF-ExtraBoldOblique';
+    src: url('/custom_font_integrationn/static/fonts/VisbyCF-ExtraBoldOblique.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'VisbyCF-Heavy';
+    src: url('/custom_font_integrationn/static/fonts/VisbyCF-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'VisbyCF-HeavyOblique';
+    src: url('/custom_font_integrationn/static/fonts/VisbyCF-HeavyOblique.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'VisbyCF-Light';
+    src: url('/custom_font_integrationn/static/fonts/VisbyCF-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'VisbyCF-LightOblique';
+    src: url('/custom_font_integrationn/static/fonts/VisbyCF-LightOblique.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'VisbyCF-Medium';
+    src: url('/custom_font_integrationn/static/fonts/VisbyCF-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'VisbyCF-MediumOblique';
+    src: url('/custom_font_integrationn/static/fonts/VisbyCF-MediumOblique.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'VisbyCF-Regular';
+    src: url('/custom_font_integrationn/static/fonts/VisbyCF-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'VisbyCF-RegularOblique';
+    src: url('/custom_font_integrationn/static/fonts/VisbyCF-RegularOblique.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'VisbyCF-Thin';
+    src: url('/custom_font_integrationn/static/fonts/VisbyCF-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'VisbyCF-ThinOblique';
+    src: url('/custom_font_integrationn/static/fonts/VisbyCF-ThinOblique.ttf') format('truetype');
+}
+
+

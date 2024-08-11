@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-inherit="mail.MessagingMenu" t-inherit-mode="extension" owl="1">
+        <!-- Hide the message icon -->
+        <xpath expr="//i[contains(@class, 'fa-comments')]" position="replace">
+            <!-- Custom content or leave empty to remove -->
+        </xpath>
+
+        <!-- Hide the message counter -->
+        <xpath expr="//span[contains(@class, 'o-mail-MessagingMenu-counter')]" position="replace">
+            <!-- Custom content or leave empty to remove -->
+        </xpath>
+    </t>
+</templates>
+

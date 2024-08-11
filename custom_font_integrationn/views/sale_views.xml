@@ -1,0 +1,106 @@
+<odoo>
+    <data>
+
+        <template id="custom_font_integration_assets_account_views" name="Custom Font Integration Assets for Account Views" inherit_id="sale.account_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_crm_team_views" name="Custom Font Integration Assets for CRM Team Views" inherit_id="sale.crm_team_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_mail_activity_views" name="Custom Font Integration Assets for Mail Activity Views" inherit_id="sale.mail_activity_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_payment_templates" name="Custom Font Integration Assets for Payment Templates" inherit_id="sale.payment_templates">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+
+
+        <template id="custom_font_integration_assets_payment_views" name="Custom Font Integration Assets for Payment Views" inherit_id="sale.payment_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_product_packaging_views" name="Custom Font Integration Assets for Product Packaging Views" inherit_id="sale.product_packaging_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_product_views" name="Custom Font Integration Assets for Product Views" inherit_id="sale.product_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_res_config_settings_views" name="Custom Font Integration Assets for Configuration Settings Views" inherit_id="sale.res_config_settings_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+
+        <template id="custom_font_integration_assets_res_partner_views" name="Custom Font Integration Assets for Partner Views" inherit_id="sale.res_partner_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_sale_menus" name="Custom Font Integration Assets for Sale Menus" inherit_id="sale.sale_menus">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_sale_onboarding_views" name="Custom Font Integration Assets for Sale Onboarding Views" inherit_id="sale.sale_onboarding_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_sale_order_line_views" name="Custom Font Integration Assets for Sale Order Line Views" inherit_id="sale.sale_order_line_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+
+        <template id="custom_font_integration_assets_sale_order_views" name="Custom Font Integration Assets for Sale Order Views" inherit_id="sale.sale_order_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_sale_portal_templates" name="Custom Font Integration Assets for Sale Portal Templates" inherit_id="sale.sale_portal_templates">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_utm_campaign_views" name="Custom Font Integration Assets for UTM Campaign Views" inherit_id="sale.utm_campaign_views">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_variant_templates" name="Custom Font Integration Assets for Variant Templates" inherit_id="sale.variant_templates">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+
+    </data>
+</odoo>

@@ -1,0 +1,28 @@
+<!-- custom_font_views.xml -->
+<odoo>
+    <data>
+
+        <record id="view_custom_font_integration_form" model="ir.ui.view">
+            <field name="name">custom.font.integration.form</field>
+            <field name="model">custom_font_integration</field>
+            <field name="arch" type="xml">
+                <form string="Custom Fonts">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="font_file" filename="name"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_custom_font_integration" model="ir.actions.act_window">
+            <field name="name">Custom Fonts</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">custom_font_integration</field>
+            <field name="view_mode">form</field>
+        </record>
+
+    </data>
+</odoo>

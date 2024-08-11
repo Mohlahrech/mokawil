@@ -1,0 +1,64 @@
+<odoo>
+    <data>
+        <template id="custom_font_integration_assets_chatbot_script_answer_views" name="Custom Font Integration Assets for Chatbot Script Answer Views" inherit_id="im_livechat.chatbot_script_answer_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_chatbot_script_step_views" name="Custom Font Integration Assets for Chatbot Script Step Views" inherit_id="im_livechat.chatbot_script_step_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_chatbot_script_views" name="Custom Font Integration Assets for Chatbot Script Views" inherit_id="im_livechat.chatbot_script_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+
+        <template id="custom_font_integration_assets_digest_views" name="Custom Font Integration Assets for Digest Views" inherit_id="im_livechat.digest_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_im_livechat_channel_templates" name="Custom Font Integration Assets for Im Livechat Channel Templates" inherit_id="im_livechat.im_livechat_channel_templates">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_im_livechat_channel_views" name="Custom Font Integration Assets for Im Livechat Channel Views" inherit_id="im_livechat.im_livechat_channel_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_im_livechat_chatbot_templates" name="Custom Font Integration Assets for Im Livechat Chatbot Templates" inherit_id="im_livechat.im_livechat_chatbot_templates">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_mail_channel_views" name="Custom Font Integration Assets for Mail Channel Views" inherit_id="im_livechat.mail_channel_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_rating_rating_views" name="Custom Font Integration Assets for Rating Rating Views" inherit_id="im_livechat.rating_rating_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_res_users_views" name="Custom Font Integration Assets for Res Users Views" inherit_id="im_livechat.res_users_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>

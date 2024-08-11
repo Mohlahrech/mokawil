@@ -1,0 +1,9 @@
+<!-- custom_menu_actions.xml -->
+<odoo>
+    <record id="action_custom_font_integration" model="ir.actions.act_window">
+        <field name="name">Custom Font Integration</field>
+        <field name="res_model">custom_font_integration</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>
+

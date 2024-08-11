@@ -1,0 +1,226 @@
+<odoo>
+    <data>
+        <template id="custom_font_integration_assets_account_tag_views" name="Custom Font Integration Assets for Account Tag Views" inherit_id="account.account_tag_view_form">
+           <xpath expr="//form/sheet" position="inside">
+               <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+           </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_account_views" name="Custom Font Integration Assets for Account Views" inherit_id="account.account_account_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_analytic_account_views" name="Custom Font Integration Assets for Analytic Account Views" inherit_id="account.account_analytic_account_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_analytic_distribution_model_views" name="Custom Font Integration Assets for Analytic Distribution Model Views" inherit_id="account.account_analytic_distribution_model_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_analytic_line_views" name="Custom Font Integration Assets for Analytic Line Views" inherit_id="account.account_analytic_line_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_analytic_plan_views" name="Custom Font Integration Assets for Analytic Plan Views" inherit_id="account.account_analytic_plan_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_bank_statement_views" name="Custom Font Integration Assets for Bank Statement Views" inherit_id="account.account_bank_statement_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_cash_rounding_view" name="Custom Font Integration Assets for Cash Rounding View" inherit_id="account.account_cash_rounding_view">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_chart_template_views" name="Custom Font Integration Assets for Chart Template Views" inherit_id="account.account_chart_template_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_dashboard_setup_bar" name="Custom Font Integration Assets for Dashboard Setup Bar" inherit_id="account.account_dashboard_setup_bar">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_full_reconcile_views" name="Custom Font Integration Assets for Full Reconcile Views" inherit_id="account.account_full_reconcile_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_group_views" name="Custom Font Integration Assets for Group Views" inherit_id="account.account_group_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_incoterms_view" inherit_id="account.account_incoterms_view">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_journal_dashboard_view" name="Custom Font Integration Assets for Journal Dashboard View" inherit_id="account.account_journal_dashboard_view">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_journal_views" name="Custom Font Integration Assets for Journal Views" inherit_id="account.account_journal_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_menuitem" inherit_id="account.menuitem_root">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_move_views" name="Custom Font Integration Assets for Move Views" inherit_id="account.account_move_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_onboarding_templates" inherit_id="account.account_onboarding_templates">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_payment_term_views" name="Custom Font Integration Assets for Payment Term Views" inherit_id="account.account_payment_term_views">
+            <xpath expr="//head" position="inside">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_payment_view" inherit_id="account.account_payment_view">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_portal_templates" inherit_id="account.account_portal_templates">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_reconcile_model_views" inherit_id="account.account_reconcile_model_views">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_report" inherit_id="account.report">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_tax_views" inherit_id="account.account_tax_views">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_bill_preview_template" inherit_id="account.bill_preview_template">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_digest_views" inherit_id="account.digest_views">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_module_views" inherit_id="account.ir_module_views">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_partner_view" inherit_id="account.partner_view">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+
+        <template id="custom_font_integration_assets_product_view" inherit_id="account.product_view">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_report_invoice" inherit_id="account.report_invoice">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_payment_receipt_templates" inherit_id="account.report_payment_receipt_templates">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_report_statement" inherit_id="account.report_statement">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_company_views" inherit_id="account.res_company_views">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_config_settings_views" inherit_id="account.res_config_settings_views">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_currency" inherit_id="account.res_currency">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_partner_bank_views" inherit_id="account.res_partner_bank_views">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="custom_font_integration_assets_terms_template" inherit_id="account.terms_template">
+            <xpath expr="//link[last()]" position="after">
+                <link href="/custom_font_integrationn/static/css/custom_fonts.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>
